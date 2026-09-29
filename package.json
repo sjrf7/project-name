@@ -1,0 +1,18 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "lint": "oxlint src/",
+    "format": "oxfmt src/"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "servor": "^4.0.2"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0"
+  }
+}
